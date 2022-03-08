@@ -1,0 +1,3 @@
+message Console {
+  required string text = 1;
+}
