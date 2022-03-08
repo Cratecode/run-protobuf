@@ -1,0 +1,11 @@
+message Main {
+  required MessageType type = 1;
+  optional bytes value = 2;
+}
+
+enum MessageType {
+  Initialized = 1;
+  Pulled = 2;
+  Console = 3;
+  SetFile = 4;
+}

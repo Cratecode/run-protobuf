@@ -1,0 +1,9 @@
+message Main {
+  required MessageType type = 1;
+  optional bytes value = 2;
+}
+
+enum MessageType {
+  Run = 1;
+  SetFile = 2;
+}

@@ -1,0 +1,11 @@
+message Main {
+  required MessageType type = 1;
+  optional bytes value = 2;
+}
+
+enum MessageType {
+  Poll = 1;
+  Init = 2;
+  Run = 3;
+  SetFile = 4;
+}

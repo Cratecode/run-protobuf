@@ -1,0 +1,10 @@
+message Main {
+  required MessageType type = 1;
+  required bytes value = 2;
+}
+
+enum MessageType {
+  Info = 1;
+  Initialized = 2;
+  Pulled = 3;
+}

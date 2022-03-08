@@ -1,0 +1,5 @@
+message Initialized {
+  required int64 host = 1;
+  required string project = 2;
+  required string user = 3;
+}

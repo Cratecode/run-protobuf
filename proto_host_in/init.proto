@@ -1,0 +1,4 @@
+message Init {
+  required string project = 1;
+  required string user = 2;
+}

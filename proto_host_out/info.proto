@@ -1,0 +1,11 @@
+message Info {
+  required int64 id = 1;
+  required string ip = 2;
+  required uint32 max_containers = 3;
+  repeated Container containers = 4;
+}
+
+message Container {
+  required string project = 1;
+  required string user = 2;
+}

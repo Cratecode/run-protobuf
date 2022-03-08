@@ -1,0 +1,8 @@
+message Main {
+  required MessageType type = 1;
+}
+
+enum MessageType {
+  Initialized = 1;
+  NotInitialized = 2;
+}
