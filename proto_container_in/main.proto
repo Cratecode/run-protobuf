@@ -8,5 +8,4 @@ enum MessageType {
   SetFile = 2;
   Stop = 3;
   Uploaded = 4;
-  Console = 5;
 }

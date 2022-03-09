@@ -6,6 +6,5 @@ message Main {
 enum MessageType {
   Initialized = 1;
   Pulled = 2;
-  Console = 3;
-  SetFile = 4;
+  SetFile = 3;
 }
