@@ -1,4 +1,6 @@
-message Run {
+message DeleteFile {
   required string project = 1;
   required string user = 2;
+
+  required string path = 3;
 }

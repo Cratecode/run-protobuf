@@ -1,0 +1,3 @@
+message DeleteFile {
+  required string path = 1;
+}

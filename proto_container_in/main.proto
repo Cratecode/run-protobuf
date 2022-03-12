@@ -4,8 +4,9 @@ message Main {
 }
 
 enum MessageType {
-  Run = 1;
+  Stop = 1;
   SetFile = 2;
-  Stop = 3;
-  Uploaded = 4;
+  Uploaded = 3;
+  DeleteFile = 4;
+  Deleted = 5;
 }

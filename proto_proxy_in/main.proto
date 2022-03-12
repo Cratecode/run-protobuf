@@ -4,6 +4,6 @@ message Main {
 }
 
 enum MessageType {
-  Run = 1;
-  SetFile = 2;
+  SetFile = 1;
+  DeleteFile = 2;
 }
