@@ -1,4 +1,4 @@
 message SetFile {
   required string path = 1;
-  required bytes data = 2;
+  optional bytes data = 2;
 }
