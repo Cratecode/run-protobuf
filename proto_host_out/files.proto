@@ -1,0 +1,10 @@
+message Files {
+  required string project = 1;
+  required string user = 2;
+  repeated File files = 3;
+}
+
+message File {
+  required string path = 1;
+  optional bytes data = 2;
+}

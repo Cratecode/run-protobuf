@@ -5,4 +5,5 @@ message Main {
 enum MessageType {
   Initialized = 1;
   NotInitialized = 2;
+  Files = 3;
 }

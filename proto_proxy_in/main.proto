@@ -6,4 +6,5 @@ message Main {
 enum MessageType {
   SetFile = 1;
   DeleteFile = 2;
+  GetFiles = 3;
 }

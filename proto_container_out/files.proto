@@ -1,0 +1,8 @@
+message Files {
+  repeated File files = 1;
+}
+
+message File {
+  required string path = 1;
+  optional bytes data = 2;
+}

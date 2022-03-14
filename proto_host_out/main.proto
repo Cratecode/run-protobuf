@@ -7,4 +7,5 @@ enum MessageType {
   Info = 1;
   Initialized = 2;
   Pulled = 3;
+  Files = 4;
 }

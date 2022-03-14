@@ -9,4 +9,5 @@ enum MessageType {
   Uploaded = 3;
   DeleteFile = 4;
   Deleted = 5;
+  GetFiles = 6;
 }

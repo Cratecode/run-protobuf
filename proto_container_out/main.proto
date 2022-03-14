@@ -8,4 +8,5 @@ enum MessageType {
   Pulled = 2;
   SetFile = 3;
   DeleteFile = 4;
+  Files = 5;
 }
