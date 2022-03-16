@@ -1,0 +1,4 @@
+message GetFiles {
+  required string project = 1;
+  required string user = 2;
+}
