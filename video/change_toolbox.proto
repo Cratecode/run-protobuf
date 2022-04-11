@@ -1,0 +1,8 @@
+message ChangeToolbox {
+  required ToolboxType type = 1;
+}
+
+enum ToolboxType {
+  Info = 0;
+  Files = 1;
+}
