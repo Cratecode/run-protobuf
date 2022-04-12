@@ -18,4 +18,9 @@ enum ActionType {
   OpenFile = 3; // ToggleFS
   ChangeText = 4; // BSON(ChangeSet.toJSON())
   Run = 5; // null
+  CreateFile = 6; // ToggleFS
+  CreateFolder = 7; // ToggleFS
+  DeleteFile = 8; // ToggleFS
+  DeleteFolder = 9; // ToggleFS
+  Move = 10; // Move
 }
