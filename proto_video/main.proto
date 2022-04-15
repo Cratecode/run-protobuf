@@ -3,6 +3,7 @@ message Main {
   required uint32 end = 2;
   required bytes audio = 3;
   repeated Action action = 4;
+  required VideoState state = 5;
 }
 
 message Action {
@@ -23,4 +24,9 @@ enum ActionType {
   DeleteFile = 8; // ToggleFS
   DeleteFolder = 9; // ToggleFS
   Move = 10; // Move
+}
+
+message VideoState {
+  required bytes files = 1; // BSON(Volume.toJSON())
+  required string curOpen = 2;
 }
