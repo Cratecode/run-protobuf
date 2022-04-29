@@ -7,4 +7,5 @@ enum MessageType {
   Initialized = 1;
   NotInitialized = 2;
   Files = 3;
+  Stopped = 4;
 }
