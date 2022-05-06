@@ -9,4 +9,5 @@ enum MessageType {
   Pulled = 3;
   Files = 4;
   Stopped = 5;
+  HTTPResponse = 6;
 }

@@ -1,0 +1,4 @@
+message HTTPRequest {
+  required string data = 1; // The HTTP response as a string.
+  required string id = 2; // The ID of the request.
+}

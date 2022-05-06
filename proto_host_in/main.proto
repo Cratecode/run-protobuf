@@ -10,4 +10,5 @@ enum MessageType {
   DeleteFile = 4;
   GetFiles = 5;
   Stop = 6;
+  HTTPRequest = 7;
 }
