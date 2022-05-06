@@ -1,4 +1,6 @@
 message HTTPResponse {
-  required string data = 1; // The HTTP response as a string.
-  required string id = 2; // The ID of the request.
+  required string method = 1;
+  map<string, bytes> headers = 2;
+  required bytes body = 3;
+  required string id = 4; // The ID of the request.
 }
