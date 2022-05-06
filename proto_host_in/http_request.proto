@@ -5,5 +5,4 @@ message HTTPRequest {
   required bytes body = 4;
   required string id = 5; // The ID of the request.
   required string project = 6;
-  required string user = 7;
 }
