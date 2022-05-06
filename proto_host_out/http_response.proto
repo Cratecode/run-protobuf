@@ -1,5 +1,5 @@
 message HTTPResponse {
-  required string method = 1;
+  required uint32 status = 1;
   map<string, bytes> headers = 2;
   required bytes body = 3;
   required string id = 4; // The ID of the request.
