@@ -1,0 +1,8 @@
+message ChangeOutput {
+  required OutputType type = 1;
+}
+
+enum OutputType {
+  Console = 0;
+  Web = 1;
+}

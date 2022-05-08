@@ -24,10 +24,12 @@ enum ActionType {
   DeleteFile = 8; // ToggleFS
   DeleteFolder = 9; // ToggleFS
   Move = 10; // Move
+  ChangeOutput = 11; // ChangeOutput
 }
 
 message VideoState {
   required bytes files = 1; // BSON(Volume.toJSON())
   required string curOpen = 2;
   required uint32 curToolbox = 3;
+  optional uint32 curOutput = 4;
 }
