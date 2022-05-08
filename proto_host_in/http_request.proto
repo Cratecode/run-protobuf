@@ -1,0 +1,8 @@
+message HTTPRequest {
+  required string method = 1;
+  required string path = 2;
+  map<string, bytes> headers = 3;
+  required bytes body = 4;
+  required string id = 5; // The ID of the request.
+  required string project = 6;
+}

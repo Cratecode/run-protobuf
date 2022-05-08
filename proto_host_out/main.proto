@@ -8,4 +8,6 @@ enum MessageType {
   Initialized = 2;
   Pulled = 3;
   Files = 4;
+  Stopped = 5;
+  HTTPResponse = 6;
 }

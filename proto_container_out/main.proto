@@ -9,4 +9,5 @@ enum MessageType {
   SetFile = 3;
   DeleteFile = 4;
   Files = 5;
+  HTTPResponse = 6;
 }
