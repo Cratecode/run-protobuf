@@ -29,7 +29,7 @@ enum ActionType {
 
 message VideoState {
   required bytes files = 1; // BSON(Volume.toJSON())
-  required string curOpen = 2;
+  optional string curOpen = 2;
   required uint32 curToolbox = 3;
   optional uint32 curOutput = 4;
 }
