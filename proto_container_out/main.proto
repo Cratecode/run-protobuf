@@ -10,4 +10,5 @@ enum MessageType {
   DeleteFile = 4;
   Files = 5;
   HTTPResponse = 6;
+  Heartbeat = 7;
 }
