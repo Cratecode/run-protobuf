@@ -1,5 +1,5 @@
 message Stopped {
   required int64 host = 1;
   required string project = 2;
-  required string user = 3;
+  required int64 user = 3;
 }

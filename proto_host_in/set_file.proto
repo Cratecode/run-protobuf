@@ -1,6 +1,6 @@
 message SetFile {
   required string project = 1;
-  required string user = 2;
+  required int64 user = 2;
 
   required string path = 3;
   optional bytes data = 4;
