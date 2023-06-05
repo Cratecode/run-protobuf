@@ -25,6 +25,10 @@ enum ActionType {
   DeleteFolder = 9; // ToggleFS
   Move = 10; // Move
   ChangeOutput = 11; // ChangeOutput
+  FocusToolbox = 12; // null
+  FocusCode = 13; // null
+  FocusOutput = 14; // null
+  CodeSelect = 15; // BSON(EditorSelection.toJSON())
 }
 
 message VideoState {
