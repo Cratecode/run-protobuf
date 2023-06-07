@@ -4,8 +4,6 @@ message Main {
 }
 
 enum MessageType {
-  Initialized = 1;
-  Pulled = 2;
   SetFile = 3;
   DeleteFile = 4;
   Files = 5;
