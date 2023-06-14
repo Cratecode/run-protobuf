@@ -11,4 +11,5 @@ enum MessageType {
   GetFiles = 5;
   Stop = 6;
   HTTPRequest = 7;
+  InitCommand = 8;
 }

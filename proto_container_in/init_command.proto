@@ -1,0 +1,13 @@
+message InitCommand {
+  required uint32 id = 1;
+  required string command = 2;
+  repeated string args = 3;
+  required RunMode mode = 4;
+  optional uint32 restart_delay = 5;
+  repeated uint32 after = 6;
+}
+
+enum RunMode {
+  RunOnce = 1;
+  RestartOnFail = 2;
+}

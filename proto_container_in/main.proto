@@ -11,4 +11,5 @@ enum MessageType {
   Deleted = 5;
   GetFiles = 6;
   HTTPRequest = 7;
+  InitCommand = 8;
 }
