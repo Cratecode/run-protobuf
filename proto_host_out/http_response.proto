@@ -4,3 +4,8 @@ message HTTPResponse {
   map<string, bytes> headers = 3;
   required bytes body = 4;
 }
+
+message IsHTTPAlive {
+  required string id = 1; // The ID of the request.
+  required bool alive = 2;
+}

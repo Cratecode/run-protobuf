@@ -10,4 +10,5 @@ enum MessageType {
   Files = 4;
   Stopped = 5;
   HTTPResponse = 6;
+  IsHTTPAlive = 7;
 }

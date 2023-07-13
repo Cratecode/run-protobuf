@@ -12,4 +12,5 @@ enum MessageType {
   Stop = 6;
   HTTPRequest = 7;
   InitCommand = 8;
+  IsHTTPAlive = 9;
 }
