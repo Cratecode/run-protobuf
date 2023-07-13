@@ -1,6 +1,6 @@
 message HTTPResponse {
-  required uint32 status = 1;
-  map<string, bytes> headers = 2;
-  required bytes body = 3;
-  required string id = 4; // The ID of the request.
+  required string id = 1; // The ID of the request.
+  required uint32 status = 2;
+  map<string, bytes> headers = 3;
+  required bytes body = 4;
 }

@@ -1,7 +1,7 @@
 message HTTPRequest {
-  required string method = 1;
-  required string path = 2;
-  map<string, bytes> headers = 3;
-  required bytes body = 4;
-  required string id = 5; // The ID of the request.
+  required string id = 1; // The ID of the request.
+  required string method = 2;
+  required string path = 3;
+  map<string, bytes> headers = 4;
+  required bytes body = 5;
 }
