@@ -8,4 +8,5 @@ enum MessageType {
   DeleteFile = 2;
   GetFiles = 3;
   InitCommand = 4;
+  ResizeBash = 5;
 }

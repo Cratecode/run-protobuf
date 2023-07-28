@@ -13,4 +13,5 @@ enum MessageType {
   HTTPRequest = 7;
   InitCommand = 8;
   IsHTTPAlive = 9;
+  ResizeBash = 10;
 }

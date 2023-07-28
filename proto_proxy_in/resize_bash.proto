@@ -1,0 +1,4 @@
+message ResizeBash {
+  required uint32 rows = 1;
+  required uint32 columns = 2;
+}

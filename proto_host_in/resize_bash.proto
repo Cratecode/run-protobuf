@@ -1,0 +1,7 @@
+message ResizeBash {
+  required string project = 1;
+  required int64 user = 2;
+
+  required uint32 rows = 3;
+  required uint32 columns = 4;
+}
