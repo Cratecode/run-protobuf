@@ -1,0 +1,5 @@
+message NotInitialized {
+  required int64 host = 1;
+  required string project = 2;
+  required int64 user = 3;
+}

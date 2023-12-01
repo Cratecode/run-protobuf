@@ -11,4 +11,5 @@ enum MessageType {
   Stopped = 5;
   HTTPResponse = 6;
   IsHTTPAlive = 7;
+  NotInitialized = 8;
 }
