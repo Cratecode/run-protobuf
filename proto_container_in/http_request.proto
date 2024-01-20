@@ -8,5 +8,4 @@ message HTTPRequest {
 
 message IsHTTPAlive {
   required string id = 1; // The ID of the request.
-  required bool alive = 2;
 }
