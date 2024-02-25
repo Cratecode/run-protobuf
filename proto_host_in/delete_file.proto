@@ -3,4 +3,5 @@ message DeleteFile {
   required int64 user = 2;
 
   required string path = 3;
+  optional bool local = 4;
 }

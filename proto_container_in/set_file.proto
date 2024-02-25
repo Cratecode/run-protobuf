@@ -1,5 +1,5 @@
 message SetFile {
   required string path = 1;
   optional bytes data = 2;
-  required bool pull = 3;
+  optional bool local = 3;
 }
