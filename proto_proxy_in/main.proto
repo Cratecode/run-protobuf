@@ -9,4 +9,5 @@ enum MessageType {
   GetFiles = 3;
   InitCommand = 4;
   ResizeBash = 5;
+  RequestClientFile = 6;
 }

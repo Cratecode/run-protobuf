@@ -1,0 +1,6 @@
+message RequestClientFile {
+  required string project = 1;
+  required int64 user = 2;
+
+  required string path = 3;
+}

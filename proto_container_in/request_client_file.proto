@@ -1,0 +1,3 @@
+message RequestClientFile {
+  required string path = 1;
+}

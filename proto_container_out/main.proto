@@ -10,4 +10,5 @@ enum MessageType {
   HTTPResponse = 6;
   Heartbeat = 7;
   IsHTTPAlive = 8;
+  ClientFile = 9;
 }

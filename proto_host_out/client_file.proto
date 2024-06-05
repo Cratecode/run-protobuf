@@ -1,0 +1,17 @@
+message ClientFile {
+  required string project = 1;
+  required int64 user = 2;
+  required string path = 3;
+  required RequestType type = 4;
+  optional bytes data = 5;
+}
+
+enum RequestType {
+  Filesystem = 1; // data = new data
+  FilesystemTooLarge = 2; // data = empty (send RequestClientFile to get data)
+  FilesystemDeleted = 3;
+  FilesystemMoved = 4; // data = new path (as String)
+  Requested = 5; // data = file data
+  Acknowledgement = 6;
+  RequestNotFound = 7;
+}
