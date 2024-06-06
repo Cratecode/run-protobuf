@@ -29,6 +29,7 @@ enum ActionType {
   FocusCode = 13; // null
   FocusOutput = 14; // null
   CodeSelect = 15; // BSON(EditorSelection.toJSON())
+  SetFile = 16; // SetFile
 }
 
 message VideoState {
