@@ -1,4 +1,5 @@
+import "proto_shared/container_id.proto";
+
 message Pulled {
-  required string project = 1;
-  required int64 user = 2;
+  required ContainerID cid = 1;
 }

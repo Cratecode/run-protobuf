@@ -1,6 +1,8 @@
+import "proto_shared/container_id.proto";
+
 message Initialized {
   required int64 host = 1;
-  required string project = 2;
-  required int64 user = 3;
+  required ContainerID cid = 2;
+  required string ip = 3;
   required int64 created = 4;
 }

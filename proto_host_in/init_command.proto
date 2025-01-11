@@ -1,12 +1,14 @@
+import "proto_shared/container_id.proto";
+
 message InitCommand {
-  required uint32 id = 1;
-  required string command = 2;
-  repeated string args = 3;
-  required RunMode mode = 4;
-  optional uint32 restart_delay = 5;
-  repeated uint32 after = 6;
-  required string project = 7;
-  required int64 user = 8;
+  required ContainerID cid = 1;
+
+  required uint32 id = 2;
+  required string command = 3;
+  repeated string args = 4;
+  required RunMode mode = 5;
+  optional uint32 restart_delay = 6;
+  repeated uint32 after = 7;
 }
 
 enum RunMode {

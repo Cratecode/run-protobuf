@@ -1,12 +1,15 @@
+import "proto_shared/container_id.proto";
+
 message Info {
   required int64 id = 1;
   required string ip = 2;
-  required uint32 max_containers = 3;
-  repeated Container containers = 4;
+  required uint32 max_auth_containers = 3;
+  required uint32 max_anon_containers = 4;
+  repeated Container containers = 5;
 }
 
 message Container {
-  required string project = 1;
-  required int64 user = 2;
+  required ContainerID cid = 1;
+  required string ip = 2;
   required int64 created = 3;
 }

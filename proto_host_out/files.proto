@@ -1,7 +1,9 @@
+import "proto_shared/container_id.proto";
+
 message Files {
-  required string project = 1;
-  required int64 user = 2;
-  repeated File files = 3;
+  required ContainerID cid = 1;
+
+  repeated File files = 2;
 }
 
 message File {

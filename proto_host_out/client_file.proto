@@ -1,9 +1,11 @@
+import "proto_shared/container_id.proto";
+
 message ClientFile {
-  required string project = 1;
-  required int64 user = 2;
-  required string path = 3;
-  required RequestType type = 4;
-  optional bytes data = 5;
+  required ContainerID cid = 1;
+
+  required string path = 2;
+  required RequestType type = 3;
+  optional bytes data = 4;
 }
 
 enum RequestType {

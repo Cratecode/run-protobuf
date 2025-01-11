@@ -1,8 +1,9 @@
-message SetFile {
-  required string project = 1;
-  required int64 user = 2;
+import "proto_shared/container_id.proto";
 
-  required string path = 3;
-  optional bytes data = 4;
-  optional bool local = 5;
+message SetFile {
+  required ContainerID cid = 1;
+
+  required string path = 2;
+  optional bytes data = 3;
+  optional bool local = 4;
 }

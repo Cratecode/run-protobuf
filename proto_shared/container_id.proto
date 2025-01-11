@@ -1,0 +1,16 @@
+message ContainerID {
+  oneof id {
+      AuthenticatedContainerID auth_id = 1;
+      AnonymousContainerID anon_id = 2;
+  }
+}
+
+message AuthenticatedContainerID {
+  required int64 user = 1;
+  required string project = 3;
+}
+
+message AnonymousContainerID {
+  required string session_key = 1;
+  required string project = 3;
+}

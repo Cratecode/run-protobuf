@@ -1,5 +1,7 @@
+import "proto_shared/container_id.proto";
+
 message Stop {
-  required string project = 1;
-  required int64 user = 2;
-  optional int64 created = 3;
+  required ContainerID cid = 1;
+
+  optional int64 created = 2;
 }

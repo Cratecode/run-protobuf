@@ -1,7 +1,8 @@
-message DeleteFile {
-  required string project = 1;
-  required int64 user = 2;
+import "proto_shared/container_id.proto";
 
-  required string path = 3;
-  optional bool local = 4;
+message DeleteFile {
+  required ContainerID cid = 1;
+
+  required string path = 2;
+  optional bool local = 3;
 }
