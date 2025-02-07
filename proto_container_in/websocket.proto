@@ -1,0 +1,16 @@
+message WebSocketBytes {
+  // The ID of the WebSocket.
+  required string id = 1;
+  required bytes data = 2;
+}
+
+message WebSocketString {
+  // The ID of the WebSocket.
+  required string id = 1;
+  required string data = 2;
+}
+
+message WebSocketClose {
+  required string id = 1;
+  optional uint32 code = 2;
+}

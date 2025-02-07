@@ -15,4 +15,14 @@ enum MessageType {
   IsHTTPAlive = 9;
   ResizeBash = 10;
   RequestClientFile = 11;
+  WebSocketInit = 12;
+  WebSocketBytes = 13;
+  WebSocketString = 14;
+  WebSocketBytesStart = 15;
+  WebSocketStringStart = 16;
+  WebSocketContinuation = 17;
+  WebSocketContinuationEnd = 18;
+  WebSocketPing = 19;
+  WebSocketPong = 20;
+  WebSocketClose = 21;
 }

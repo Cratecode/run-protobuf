@@ -14,4 +14,14 @@ enum MessageType {
   InitCommand = 8;
   IsHTTPAlive = 9;
   RequestClientFile = 10;
+  WebSocketInit = 11;
+  WebSocketBytes = 12;
+  WebSocketString = 13;
+  WebSocketBytesStart = 14;
+  WebSocketStringStart = 15;
+  WebSocketContinuation = 16;
+  WebSocketContinuationEnd = 17;
+  WebSocketPing = 18;
+  WebSocketPong = 19;
+  WebSocketClose = 20;
 }
