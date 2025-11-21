@@ -4,7 +4,8 @@ message Main {
 }
 
 enum MessageType {
-  Poll = 1;
+  InfoProxy = 22;
+  PollHosts = 1;
   Init = 2;
   SetFile = 3;
   DeleteFile = 4;

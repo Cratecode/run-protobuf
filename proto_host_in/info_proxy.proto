@@ -1,0 +1,4 @@
+message InfoProxy {
+  required int64 id = 1;
+  required string ip = 2;
+}

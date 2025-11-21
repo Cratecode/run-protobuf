@@ -1,10 +1,11 @@
 message Main {
   required MessageType type = 1;
-  required bytes value = 2;
+  optional bytes value = 2;
 }
 
 enum MessageType {
-  Info = 1;
+  InfoHost = 1;
+  PollProxies = 23;
   Initialized = 2;
   Pulled = 3;
   Files = 4;

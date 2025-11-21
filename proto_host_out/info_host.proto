@@ -1,6 +1,6 @@
 import "proto_shared/container_id.proto";
 
-message Info {
+message InfoHost {
   required int64 id = 1;
   required string ip = 2;
   required uint32 max_auth_containers = 3;

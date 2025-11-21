@@ -4,4 +4,5 @@ message Init {
   required ContainerID cid = 1;
   required string ip = 2;
   optional string lesson_project = 3;
+  required int64 proxy_id = 4;
 }

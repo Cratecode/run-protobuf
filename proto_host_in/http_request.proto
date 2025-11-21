@@ -1,6 +1,7 @@
 message HTTPRequest {
   required string id = 1; // The ID of the request.
   required string project = 2;
+  required int64 proxy_id = 7;
   required string method = 3;
   required string path = 4;
   map<string, bytes> headers = 5;
@@ -10,4 +11,5 @@ message HTTPRequest {
 message IsHTTPAlive {
   required string id = 1; // The ID of the request.
   required string project = 2;
+  required int64 proxy_id = 3;
 }
